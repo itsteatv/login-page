@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- REMIX ICON -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="button-box">
+                <div class="btn"></div>
+                <button type="button" class="toogle-btn" onclick="login()">Login</button>
+                <button type="button" class="toogle-btn" onclick="register()">Register</button>
+            </div>
+            <!-- LOGIN SECTION -->
+            <form id="login" class="input-group-login">
+                <input type="text" class="input-field" placeholder="username" required = "required">
+                <input type="password" class="input-field" placeholder="password" required = "required">
+                <a href="#" class="remember-password"><p>remember-password</p></a>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+            <!-- REGISTER SECTION -->
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="username" required = "required">
+                <input type="email" class="input-field" placeholder="email" required = "required">
+                <input type="password" class="input-field" placeholder="password" required = "required">
+                <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Created with <i class="ri-heart-line"></i> by
+            <a target="_blank" href="https://github.com/itsteatv">itsteatv</a>
+            &
+            <a target="_blank" href="https://github.com/amirhosseinforouhar">amirhosseinforouhar</a>
+        </p>
+    </footer>
+</body>
+</html>
